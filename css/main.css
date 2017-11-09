@@ -6,12 +6,13 @@
 	--pewterblue: #97AABD;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Cutive|Source+Sans+Pro');
 
 header.masthead {
 	background: 
 	linear-gradient(
-      rgba(158, 90, 99, 0.9), 
-      rgba(158, 90, 99, 0.9)), 
+      rgba(49, 68, 85, 0.9), 
+      rgba(49, 68, 85, 0.9)), 
 	url(../img/header/night.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -23,7 +24,7 @@ header.masthead {
 		padding-bottom: 400px; }
 		header.masthead .container-fluid .main-header-text {
 			font-size: 6em;
-			color: var(--charcoal); }
+			color: var(--fuzzywuzzy); }
 			header.masthead .container-fluid .main-header-text .accent {
 				color: var(--pewterblue); }
 		header.masthead .container-fluid .sub-header-text {
@@ -32,16 +33,16 @@ header.masthead {
 
 section.about {
 	background-color: var(--fuzzywuzzy); }
-	section.about .container-fluid .about-content {
-
-	}
+	section.about .container-fluid .about-content {  }
 	section.about .container-fluid { }
 		section.about .container-fluid .bottom-image {
 			height: 340px;
-    		background: url("../img/about/forest-rosedust.png") left bottom repeat-x;
-		}
-	section.about .container-fluid p {
+    		background: url("../img/about/forest-rosedust.png") left bottom repeat-x; }
+	section.about .container-fluid h1 {
+		text-shadow: 
+			4px 3px 0px var(--fuzzywuzzy), 
+			9px 8px 0px var(--charcoal);
 		font-size: 4em;
 		padding-top: 100px;
 		padding-bottom: 50px;
-		color: var(--pewterblue);	}
+		color: var(--pewterblue); }
