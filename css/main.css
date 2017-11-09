@@ -5,6 +5,8 @@
 	--tan: #D09683;
 }
 
-body {
+header.masthead .container-fluid {
 	background-color: var(--blue);
-}
+	padding: 15px;}
+	header.masthead .container-fluid .main-header-text {
+		color: var(--tan);}
