@@ -29,3 +29,19 @@ header.masthead {
 		header.masthead .container-fluid .sub-header-text {
 			font-size: 3em;
 			color: var(--pewterblue); }
+
+section.about {
+	background-color: var(--fuzzywuzzy); }
+	section.about .container-fluid .about-content {
+
+	}
+	section.about .container-fluid { }
+		section.about .container-fluid .bottom-image {
+			height: 340px;
+    		background: url("../img/about/forest-rosedust.png") left bottom repeat-x;
+		}
+	section.about .container-fluid p {
+		font-size: 4em;
+		padding-top: 100px;
+		padding-bottom: 50px;
+		color: var(--pewterblue);	}
