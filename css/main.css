@@ -1,0 +1,10 @@
+:root {
+	--darkpurple: #363237;
+	--blue: #2D4262;
+	--taupe: #73605B;
+	--tan: #D09683;
+}
+
+body {
+	background-color: var(--blue);
+}
