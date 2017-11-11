@@ -46,9 +46,7 @@ header.masthead {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover }
-	header.masthead .container {
-		padding-top: 200px;
-		padding-bottom: 200px; }
+	header.masthead .container { }
 		header.masthead .container .main-header-text {
 			font-family: 'Quicksand', sans-serif;
 			font-size: 6em;
