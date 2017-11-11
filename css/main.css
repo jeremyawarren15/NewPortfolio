@@ -61,12 +61,13 @@ header.masthead {
 
 section.about {
 	background-color: var(--fuzzywuzzy); }
+	section.about .bottom-image {
+		height: 181px;
+		background: url("../img/about/forest-rosedust.png") left bottom repeat-x; }
 	section.about .container .about-content { 
 		margin-left: auto;
 		margin-right: auto; }
 	section.about .container { }
-		section.about .container .bottom-image {
-    		background: url("../img/about/forest-rosedust.png") left bottom repeat-x; }
 	section.about .container .about-content {
 		padding-top: 100px;
 		padding-bottom: 100px;
