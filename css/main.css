@@ -89,3 +89,7 @@ section.about {
 	section.about .container p {
 		font-size: 1.5em;
 	}
+
+section.portfolio {
+	background-color: var(--rosedust);
+}
