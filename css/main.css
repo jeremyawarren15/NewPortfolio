@@ -52,7 +52,7 @@ section {
 	border-color: var(--fuzzywuzzy);
 }
 
-header.masthead {
+#masthead {
 	height: 100%;
 	background: linear-gradient( rgba(49, 68, 85, 0.9), rgba(49, 68, 85, 0.9) ), url(../img/header/night.jpg);
     background-position-x: center;
@@ -71,57 +71,109 @@ header.masthead {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover }
-	header.masthead .container { }
-		header.masthead .container .section-heading {
+	#masthead .container { }
+		#masthead .container .section-heading {
 			font-size: 75px;
 			color: var(--fuzzywuzzy); }
-			header.masthead .container .section-heading .accent {
+			#masthead .container .section-heading .accent {
 				color: var(--pewterblue); }
-		header.masthead .container .section-subheading {
+		#masthead .container .section-subheading {
 			color: var(--pewterblue); }
 
-section.about {
+#about {
 	padding-bottom: 0;
 	background-color: var(--fuzzywuzzy); }
-	section.about .bottom-image {
+	#about .bottom-image {
 		height: 181px;
 		background: url("../img/about/forest-rosedust.png") left bottom repeat-x; }
-	section.about .container .about-content { 
+	#about .container .about-content { 
 		margin-left: auto;
 		margin-right: auto; }
-	section.about .container { }
-	section.about .container .about-content {
+	#about .container { }
+	#about .container .about-content {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
-	section.about .container .section-heading {
+	#about .container .section-heading {
 		font-size: 4em;
 		color: var(--pewterblue);
 		padding-bottom: 15px;
 		margin-bottom: 0; }
-	section.about .container .section-subheading {
+	#about .container .section-subheading {
 		color: var(--wenge);
 		font-style: italic;
 		font-size: 28px;
 	}
-	section.about .container p {
+	#about .container p {
 		font-size: 1.5em;
 	}
 
-section.portfolio {
-	background-color: var(--rosedust);
-}
-section.portfolio .section-heading {
-	color: var(--pewterblue);
-	font-size: 4em;
-	padding-bottom: 15px;
-	margin-bottom: 0;
-}
-section.portfolio .section-subheading {
-	color: var(--fuzzywuzzy);
-	font-style: italic;
-	font-size: 28px;
-}
+
+
+
+#portfolio .portfolio-item {
+  right: 0;
+  margin: 0 0 15px; }
+  #portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer; }
+    #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 0;
+      background: rgba(247, 206, 62, 0.8); }
+      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+        opacity: 1; }
+      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 20px;
+        margin-top: -12px;
+        text-align: center;
+        color: white; }
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content a {
+          color: #1A2930;
+          -webkit-transition: all 0.5s ease-out;
+          -moz-transition: all 0.5s ease-out;
+          -o-transition: all 0.5s ease-out;
+          -ms-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out;
+        }
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content a:hover {
+          color: white;
+          -webkit-transition: all 0.5s ease-out;
+          -moz-transition: all 0.5s ease-out;
+          -o-transition: all 0.5s ease-out;
+          -ms-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out; }
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+          margin-top: -12px; }
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+          margin: 0; }
+  #portfolio .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff; }
+    #portfolio .portfolio-item .portfolio-caption h4 {
+      margin: 0;
+      text-transform: none; }
+    #portfolio .portfolio-item .portfolio-caption p {
+      font-size: 16px;
+      font-style: italic;
+      margin: 0;
+      font-family: 'Open Sans', sans-serif; }
 
 /***********ANIMATIONS************/
 .shake {
