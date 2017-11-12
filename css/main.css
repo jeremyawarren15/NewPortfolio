@@ -95,11 +95,7 @@ section.about {
 		padding-bottom: 100px;
 	}
 	section.about .container .section-heading {
-		text-shadow: 
-			4px 3px 0px var(--fuzzywuzzy), 
-			9px 8px 0px var(--charcoal);
 		font-size: 4em;
-		padding-bottom: 50px;
 		color: var(--pewterblue);
 		padding-bottom: 15px;
 		margin-bottom: 0; }
@@ -114,6 +110,17 @@ section.about {
 
 section.portfolio {
 	background-color: var(--rosedust);
+}
+section.portfolio .section-heading {
+	color: var(--pewterblue);
+	font-size: 4em;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
+section.portfolio .section-subheading {
+	color: var(--fuzzywuzzy);
+	font-style: italic;
+	font-size: 28px;
 }
 
 /***********ANIMATIONS************/
@@ -142,8 +149,8 @@ section.portfolio {
 		-webkit-transform: translate3d(0, 0, 0);
 		transform: translate3d(0, 0, 0); }
 	10%, 30%, 50%, 70%, 90% {
-		-webkit-transform: translate3d(-10px, 0, 0);
-		transform: translate3d(-10px, 0, 0); }
+		-webkit-transform: translate3d(-5px, 0, 0);
+		transform: translate3d(-5px, 0, 0); }
 	20%, 40%, 60%, 80% {
-		-webkit-transform: translate3d(10px, 0, 0);
-		transform: translate3d(10px, 0, 0); } } 
+		-webkit-transform: translate3d(5px, 0, 0);
+		transform: translate3d(5px, 0, 0); } } 
