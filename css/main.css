@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Quicksand');
 
-:root {
+/*:root {
 	--charcoal: #314455; 
 	--pewterblue: #97AABD;
 	--wenge: #644E58;
 	--rosedust: #9E5A63;
 	--fuzzywuzzy: #C96567;
+}*/
+
+:root {
+	--midnight: #114B5F;
+	--emerald: #1A936F;
+	--eton: #88D498;
+	--pastelgray: #C6DABF;
+	--eggshell: #F3E9D2;
 }
 
 /*
@@ -29,8 +37,12 @@ h6 {
 
 p {
 	font-family: 'Lato', sans-serif;
-	color: var(--charcoal);
 	line-height: 1.75;
+}
+
+.section-subheading {
+	font-size: 20px;
+	font-style: italic;
 }
 
 section {
@@ -47,14 +59,13 @@ section {
     margin-bottom: 75px;
     text-transform: none; }
 
-.img-thumbnail {
-	background-color: var(--wenge);
-	border-color: var(--fuzzywuzzy);
+#main-nav {
+
 }
 
 #masthead {
 	height: 100%;
-	background: linear-gradient( rgba(49, 68, 85, 0.9), rgba(49, 68, 85, 0.9) ), url(../img/header/night.jpg);
+	background: linear-gradient( rgba(17, 75, 95, 0.9), rgba(17, 75, 95, 0.9) ), url(../img/header/night.jpg);
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -72,20 +83,24 @@ section {
     -o-background-size: cover;
     background-size: cover }
 	#masthead .container { }
+		#masthead .intro-text {
+			padding-top: 400px;
+		}
 		#masthead .container .section-heading {
 			font-size: 75px;
-			color: var(--fuzzywuzzy); }
+			color: var(--eggshell); }
 			#masthead .container .section-heading .accent {
-				color: var(--pewterblue); }
+				color: var(--eton); }
 		#masthead .container .section-subheading {
-			color: var(--pewterblue); }
+			color: var(--eton); }
 
 #about {
 	padding-bottom: 0;
-	background-color: var(--fuzzywuzzy); }
+	background-color: var(--eggshell); }
 	#about .bottom-image {
+		margin-bottom: -1px;
 		height: 181px;
-		background: url("../img/about/forest-rosedust.png") left bottom repeat-x; }
+		background: url("../img/about/treeline-emerald-lowres.png") left bottom repeat-x; }
 	#about .container .about-content { 
 		margin-left: auto;
 		margin-right: auto; }
@@ -95,25 +110,25 @@ section {
 	}
 	#about .container .section-heading {
 		font-size: 4em;
-		color: var(--pewterblue);
+		color: var(--emerald);
 		padding-bottom: 15px;
 		margin-bottom: 0; }
 	#about .container .section-subheading {
-		color: var(--wenge);
-		font-style: italic;
-		font-size: 28px;
+		color: var(--eton);
 	}
 	#about .container p {
 		font-size: 1.5em;
+		color: var(--midnight);
 	}
 
 
 
 #portfolio {
-	background-color: var(--rosedust);
+	background-color: var(--emerald);
+	padding-bottom: 0;
 }
 #portfolio .portfolio-item {
-  background-color: var(--rosedust);
+  background-color: var(--emerald);
   transition: all 0.1s;
   right: 0;
   margin: 0;
@@ -140,11 +155,11 @@ section {
     margin: 0 auto;
     padding: 25px; }
     #portfolio .portfolio-item .portfolio-caption h4 {
-    	color: var(--charcoal);
+    	color: var(--eggshell);
       margin: 0;
       text-transform: none; }
     #portfolio .portfolio-item .portfolio-caption p {
-    	color: var(--fuzzywuzzy);
+    	color: var(--eton);
       font-size: 16px;
       font-style: italic;
       margin: 0;
@@ -152,15 +167,13 @@ section {
 
 #portfolio .section-heading {
 	font-size: 4em;
-		color: var(--pewterblue);
+		color: var(--eggshell);
 		padding-bottom: 15px;
 		margin-bottom: 0; }
 
 
 #portfolio .section-subheading {
-	color: var(--wenge);
-	font-style: italic;
-	font-size: 28px;
+	color: var(--eton);
 }
 
 #portfolio .portfolio-item img {
@@ -174,7 +187,35 @@ section {
 	opacity: 1;
 }
 
+#portfolio .portfolio-item:hover .portfolio-caption {
+	background-color: var(--eggshell);
+}
 
+#portfolio .portfolio-item:hover .portfolio-caption h4 {
+	color: var(--midnight);
+}
+
+
+#portfolio .bottom-image {
+		margin-bottom: -1px;
+		height: 180px;
+		background: url("../img/portfolio/threetrees-eton.png") right bottom;
+		background-repeat: no-repeat; }
+
+#contact {
+	background-color: var(--eton);
+}
+
+#contact .section-heading {
+	font-size: 4em;
+		color: var(--midnight);
+		padding-bottom: 15px;
+		margin-bottom: 0; }
+
+
+#contact .section-subheading {
+	color: var(--eggshell);
+}
 
 /***********ANIMATIONS************/
 .shake {
