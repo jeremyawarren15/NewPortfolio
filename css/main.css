@@ -217,6 +217,11 @@ section {
 	color: var(--eggshell);
 }
 
+#sendMessageButton {
+	height: 100%;
+	width: 100%;
+}
+
 /***********ANIMATIONS************/
 .shake {
 	-webkit-animation-name: shake;
