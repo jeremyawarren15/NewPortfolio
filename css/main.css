@@ -51,6 +51,16 @@ section {
 	padding: 100px 0;
 }
 
+#main-nav {
+	background-color: var(--midnight);
+	z-index: 100;
+	opacity: 0.9;
+}
+
+#main-nav a {
+	color: var(--eggshell);
+}
+
 section h2.section-heading {
 	font-size: 40px;
 	margin-top: 0;
