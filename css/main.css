@@ -52,54 +52,75 @@ section {
 }
 
 #mainNav {
-	background-color: #212529; }
-	#mainNav .navbar-toggler {
-	  font-size: 12px;
-	  right: 0;
-	  padding: 13px;
-	  text-transform: uppercase;
-	  color: white;
-	  border: 0;
-	  background-color: #fed136;
-	  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-	#mainNav .navbar-brand {
-	  color: #fed136;
-	  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
-	  #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-		color: #fec503; }
-	#mainNav .navbar-nav .nav-item .nav-link {
-	  font-size: 90%;
-	  font-weight: 400;
-	  padding: 0.75em 0;
-	  letter-spacing: 1px;
-	  color: white;
-	  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-	  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-		color: #fed136; }
-  
-  @media (min-width: 992px) {
+	background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+	font-size: 12px;
+	right: 0;
+	padding: 13px;
+	text-transform: uppercase;
+	color: white;
+	border: 0;
+	background-color: #fed136;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-brand {
+	color: #fed136;
+	font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
+	color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+	font-size: 90%;
+	font-weight: 400;
+	padding: 0.75em 0;
+	letter-spacing: 1px;
+	color: white;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+	color: #fed136;
+}
+
+@media (min-width: 992px) {
 	#mainNav {
-	  padding-top: 25px;
-	  padding-bottom: 25px;
-	  -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-	  -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-	  transition: padding-top 0.3s, padding-bottom 0.3s;
-	  border: none;
-	  background-color: transparent; }
-	  #mainNav .navbar-brand {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		-webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+		-moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+		transition: padding-top 0.3s, padding-bottom 0.3s;
+		border: none;
+		background-color: transparent;
+	}
+	#mainNav .navbar-brand {
 		font-size: 1.75em;
 		-webkit-transition: all 0.3s;
 		-moz-transition: all 0.3s;
-		transition: all 0.3s; }
-	  #mainNav .navbar-nav .nav-item .nav-link {
-		padding: 1.1em 1em !important; }
-	  #mainNav.navbar-shrink {
+		transition: all 0.3s;
+	}
+	#mainNav .navbar-nav .nav-item .nav-link {
+		padding: 1.1em 1em !important;
+	}
+	#mainNav.navbar-shrink {
 		padding-top: 0;
 		padding-bottom: 0;
-		background-color: #212529; }
-		#mainNav.navbar-shrink .navbar-brand {
-		  font-size: 1.25em;
-		  padding: 12px 0; } }
+		background-color: #212529;
+	}
+	#mainNav.navbar-shrink .navbar-brand {
+		font-size: 1.25em;
+		padding: 12px 0;
+	}
+}
 
 section h2.section-heading {
 	font-size: 40px;
@@ -135,9 +156,11 @@ section h3.section-subheading {
 	background-size: cover
 }
 
+
 /*
  * MASTHEAD
  */
+
 #masthead .intro-text {
 	padding-top: 400px;
 }
@@ -155,9 +178,11 @@ section h3.section-subheading {
 	color: var(--eton);
 }
 
+
 /*
  * ABOUT
  */
+
 #about {
 	padding-bottom: 0;
 	background-color: var(--eggshell);
@@ -194,9 +219,11 @@ section h3.section-subheading {
 	color: var(--midnight);
 }
 
+
 /*
  * PORTFOLIO
  */
+
 #portfolio {
 	background-color: var(--emerald);
 	padding-bottom: 0;
@@ -297,9 +324,11 @@ section h3.section-subheading {
 	background-repeat: no-repeat;
 }
 
+
 /*
  * CONTACT
  */
+
 #contact {
 	background-color: var(--eton);
 }
