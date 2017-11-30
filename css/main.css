@@ -113,8 +113,6 @@ section {
 		color: var(--midnight);
 	}
 
-
-
 #portfolio {
 	background-color: var(--emerald);
 	padding-bottom: 0;
@@ -203,8 +201,6 @@ section {
 		color: var(--midnight);
 		padding-bottom: 15px;
 		margin-bottom: 0; }
-
-
 #contact .section-subheading {
 	color: var(--eggshell);
 }
@@ -213,35 +209,3 @@ section {
 	height: 100%;
 	width: 100%;
 }
-
-/***********ANIMATIONS************/
-.shake {
-	-webkit-animation-name: shake;
-	animation-name: shake;
-	-webkit-animation-duration: 10s;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both; }
-
-@-webkit-keyframes shake {
-	0%, 100% {
-		-webkit-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0); }
-	10%, 30%, 50%, 70%, 90% {
-		-webkit-transform: translate3d(-10px, 0, 0);
-		transform: translate3d(-10px, 0, 0); }
-	20%, 40%, 60%, 80% {
-		-webkit-transform: translate3d(10px, 0, 0);
-		transform: translate3d(10px, 0, 0); } }
-
-@keyframes shake {
-	0%, 100% {
-		-webkit-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0); }
-	10%, 30%, 50%, 70%, 90% {
-		-webkit-transform: translate3d(-5px, 0, 0);
-		transform: translate3d(-5px, 0, 0); }
-	20%, 40%, 60%, 80% {
-		-webkit-transform: translate3d(5px, 0, 0);
-		transform: translate3d(5px, 0, 0); } } 
