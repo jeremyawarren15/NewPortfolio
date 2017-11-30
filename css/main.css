@@ -9,7 +9,7 @@
 }*/
 
 :root {
-	--midnight: #114B5F;
+	--midnight: #104b5f;
 	--emerald: #1A936F;
 	--eton: #88D498;
 	--pastelgray: #C6DABF;
@@ -334,18 +334,56 @@ section h3.section-subheading {
 	background-color: var(--eton);
 }
 
-#contact .section-heading {
-	font-size: 4em;
-	color: var(--midnight);
-	padding-bottom: 15px;
-	margin-bottom: 0;
-}
+
 
 #contact .section-subheading {
 	color: var(--eggshell);
 }
 
 #sendMessageButton {
-	height: 100%;
+	height: 64px;
 	width: 100%;
+}
+
+section#contact .form-group {
+	margin-bottom: 25px; }
+	section#contact .form-group input,
+	section#contact .form-group textarea {
+	padding: 20px; }
+	section#contact .form-group input.form-control {
+	height: auto; }
+	section#contact .form-group textarea.form-control {
+	height: 248px; }
+	section#contact textarea#message {
+		height: 140px;
+	}
+section#contact .form-control:focus {
+	border-color: #fed136;
+	box-shadow: none; }
+section#contact ::-webkit-input-placeholder {
+	font-weight: 700;
+	color: #ced4da;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+section#contact :-moz-placeholder {
+	font-weight: 700;
+	color: #ced4da;
+	/* Firefox 18- */
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+section#contact ::-moz-placeholder {
+	font-weight: 700;
+	color: #ced4da;
+	/* Firefox 19+ */
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+section#contact :-ms-input-placeholder {
+	font-weight: 700;
+	color: #ced4da;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+#sendMessageButton {
+	background-color: var(--midnight);
+	color: var(--eggshell);
+}
+
+#sendMessageButton:hover {
+	background-color: #216175;
 }
