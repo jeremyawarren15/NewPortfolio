@@ -59,6 +59,16 @@ section {
     margin-bottom: 75px;
     text-transform: none; }
 
+#main-nav {
+	background-color: var(--midnight);
+	z-index: 100;
+	opacity: 0.9;
+}
+
+#main-nav a {
+	color: var(--eggshell);
+}
+
 #masthead {
 	height: 100%;
 	background: linear-gradient( rgba(17, 75, 95, 0.9), rgba(17, 75, 95, 0.9) ), url(../img/header/night.jpg);
@@ -132,7 +142,7 @@ section {
 	-webkit-box-shadow: 10px 10px 91px 0px rgba(0, 0, 0,1);
 	-moz-box-shadow: 10px 10px 91px 0px rgba(0, 0, 0,1);
 	box-shadow: 10px 10px 91px 0px rgba(0, 0, 0,1);
-		z-index:9999;
+		z-index:10;
 }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
