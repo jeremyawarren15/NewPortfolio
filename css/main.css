@@ -221,24 +221,91 @@ section h3.section-subheading {
 }
 
 /*
- * Portfolio
+ * Skills
  */
+#skills {
+	padding-bottom: 0;
+}
+ 
+ #skills .container .section-heading {
+	font-size: 4em;
+	color: var(--eggshell);
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
+
+#skills .container .section-subheading {
+	color: var(--eggshell);
+}
+
+ section#skills {
+	 background-color: var(--emerald);
+ }
+
+section#skills .container-fluid div{
+	padding: 55px;
+}
+
+
+section#skills .container-fluid .row {
+	margin: 0;
+	padding: 0;
+}
+
+section#skills .container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.odd {
+	background-color: var(--eton);
+	color: var(--emerald)
+}
+
+.even {
+	color: var(--eton)
+}
+
+section#skills i {
+	font-size: 45px;
+	margin-bottom: 15px;
+}
 
 /*
  * Portfolio
  */
+#portfolio {
+	background-color: var(--eggshell);
+	color: var(--midnight)
+}
+
+#portfolio .container .section-heading {
+	font-size: 4em;
+	color: var(--emerald);
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
+
+#portfolio .container .section-subheading {
+	color: var(--emerald);
+}
 
 /*
  * CONTACT
  */
 
 #contact {
-	background-color: var(--eton);
+	background-color: var(--emerald);
 }
 
+#contact .container .section-heading {
+	font-size: 4em;
+	color: var(--eggshell);
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
 
-
-#contact .section-subheading {
+#portfolio .container .section-subheading {
 	color: var(--eggshell);
 }
 
