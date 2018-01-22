@@ -290,6 +290,14 @@ section#skills i {
 	color: var(--emerald);
 }
 
+.portfolio-caption {
+	margin-top: 10px;
+}
+
+.portfolio-caption h4 {
+	color: var(--emerald);
+}
+
 /*
  * CONTACT
  */
