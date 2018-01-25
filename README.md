@@ -10,5 +10,7 @@ This portfolio is a work in progress for me. I wanted to do some cool things wit
 
 I used Quicksand and Lato for my fonts. [Here](https://fonts.google.com/selection?query=quicksand&selection.family=Lato|Quicksand) is a link to the fonts on Google Fonts. I thought that the combination of these fonts gave off an inviting feel and that was the main motivation for my choosing these two. I also wanted to keep it simple by using Google Fonts. Seriously, it's pretty awesome.
 
+The tree silhouette came from [here](http://weclipart.com/treeline+silhouette+clipart/d/2305422). The original file is an svg, but I converted it to png. This was a really big inspiration for the actual colors that I used.
+
 ## Credit
 While the whole project didn't start from a template, I did implement some pretty cool things from a template called [Agency](https://startbootstrap.com/template-overviews/agency/). It's a pretty sleek website. The main things that I took from it are the javascript features that it includes. You might also notice a slight design skew towards their design, but I tried not to let it look too much like their template.
