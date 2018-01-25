@@ -220,123 +220,145 @@ section h3.section-subheading {
 	color: var(--midnight);
 }
 
-
 /*
- * PORTFOLIO
+ * Skills
  */
-
-#portfolio {
-	background-color: var(--emerald);
+#skills {
 	padding-bottom: 0;
 }
 
-#portfolio .portfolio-item {
-	background-color: var(--emerald);
-	transition: all 0.1s;
-	right: 0;
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-
-#portfolio .portfolio-item:hover {
-	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
-	-ms-transform: scale(1.1, 1.1);
-	/* IE 9 */
-	-webkit-transform: scale(1.1, 1.1);
-	/* Safari */
-	transform: scale(1.1, 1.1);
-	-webkit-box-shadow: 10px 10px 91px 0px rgba(0, 0, 0, 1);
-	-moz-box-shadow: 10px 10px 91px 0px rgba(0, 0, 0, 1);
-	box-shadow: 10px 10px 91px 0px rgba(0, 0, 0, 1);
-	z-index: 10;
-}
-
-#portfolio .portfolio-item .portfolio-link {
-	position: relative;
-	display: block;
-	max-width: 400px;
-	margin: 0 auto;
-	cursor: pointer;
-}
-
-#portfolio .portfolio-item .portfolio-caption {
-	max-width: 400px;
-	margin: 0 auto;
-	padding: 25px;
-}
-
-#portfolio .portfolio-item .portfolio-caption h4 {
-	color: var(--eggshell);
-	margin: 0;
-	text-transform: none;
-}
-
-#portfolio .portfolio-item .portfolio-caption p {
-	color: var(--eton);
-	font-size: 16px;
-	font-style: italic;
-	margin: 0;
-	font-family: 'Open Sans', sans-serif;
-}
-
-#portfolio .section-heading {
+ #skills .container .section-heading {
 	font-size: 4em;
 	color: var(--eggshell);
 	padding-bottom: 15px;
 	margin-bottom: 0;
 }
 
-#portfolio .section-subheading {
-	color: var(--eton);
+#skills .container .section-subheading {
+	color: var(--eggshell);
 }
 
-#portfolio .portfolio-item {
-	margin-bottom: 20px;
+ section#skills {
+	 background-color: var(--emerald);
+ }
+
+section#skills .container-fluid div{
+	padding: 55px;
 }
 
-#portfolio .portfolio-item img {
-	opacity: 0.50;
-	-moz-opacity: 50%;
-	-webkit-opacity: 50%;
-	z-index: 2;
+
+section#skills .container-fluid .row {
+	margin: 0;
+	padding: 0;
 }
 
-#portfolio .portfolio-item:hover {
-	height: 100%;
+section#skills .container-fluid {
+	margin: 0;
+	padding: 0;
 }
 
-#portfolio .portfolio-item:hover img {
-	opacity: 1;
+.odd {
+	background-color: var(--eton);
+	color: var(--emerald)
 }
 
-#portfolio .portfolio-item:hover .portfolio-caption {
+.even {
+	color: var(--eton)
+}
+
+section#skills i {
+	font-size: 45px;
+	margin-bottom: 15px;
+}
+
+/*
+ * Portfolio
+ */
+#portfolio {
 	background-color: var(--eggshell);
+	color: var(--midnight)
 }
 
-#portfolio .portfolio-item:hover .portfolio-caption h4 {
-	color: var(--midnight);
+#portfolio .container .section-heading {
+	font-size: 4em;
+	color: var(--emerald);
+	padding-bottom: 15px;
+	margin-bottom: 0;
 }
 
-#portfolio .bottom-image {
-	margin-bottom: -1px;
-	height: 180px;
-	background: url("../img/portfolio/threetrees-eton.png") right bottom;
-	background-repeat: no-repeat;
+#portfolio .container .section-subheading {
+	color: var(--emerald);
 }
 
+.portfolio-caption {
+	margin-top: 10px;
+}
+
+.portfolio-caption h4 {
+	color: var(--emerald);
+}
+
+.portfolio-image {
+	position: relative;
+	width: 100%;
+  }
+
+.portfolio-image img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.portfolio-image .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: var(--midnight);
+  }
+  
+  .portfolio-image:hover .overlay {
+	opacity: .9;
+  }
+
+  .text {
+	color: var(--eggshell);
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	transition: .5s ease;
+  }
+  
+  .text:hover {
+	  text-decoration: none;
+	  color: var(--pastelgray);
+  }
 
 /*
  * CONTACT
  */
 
 #contact {
-	background-color: var(--eton);
+	background-color: var(--emerald);
 }
 
+#contact .container .section-heading {
+	font-size: 4em;
+	color: var(--eggshell);
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
 
-
-#contact .section-subheading {
+#portfolio .container .section-subheading {
 	color: var(--eggshell);
 }
 
