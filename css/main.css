@@ -298,6 +298,51 @@ section#skills i {
 	color: var(--emerald);
 }
 
+.portfolio-image {
+	position: relative;
+	width: 100%;
+  }
+
+.portfolio-image img {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.portfolio-image .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: var(--midnight);
+  }
+  
+  .portfolio-image:hover .overlay {
+	opacity: .9;
+  }
+
+  .text {
+	color: var(--eggshell);
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	transition: .5s ease;
+  }
+  
+  .text:hover {
+	  text-decoration: none;
+	  color: var(--pastelgray);
+  }
+
 /*
  * CONTACT
  */
